@@ -1,0 +1,17 @@
+{
+  "name": "grpc-demo",
+  "version": "1.0.0",
+  "description": "Demo gRPC server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cto.ai/sdk": "^2.4.0",
+    "@grpc/grpc-js": "^1.5.5",
+    "@grpc/proto-loader": "^0.6.9"
+  }
+}

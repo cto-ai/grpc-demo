@@ -1,0 +1,8 @@
+# for more info visit https://cto.ai/docs
+version: "1"
+services:
+  - name: grpc-test-server:0.4.0
+    description: testing gRPC
+    run: node /ops/index.js
+    port: [ '8080:8080' ]
+    domain: ""
